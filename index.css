@@ -1,0 +1,82 @@
+
+body{
+   background-color: blueviolet;
+}
+
+#myContainer{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+    
+.button{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+     height: 100px;
+     width: 150px;
+    border: 2px solid white;
+}
+
+
+.buttons{
+    font-size: 0px;    
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+.miniButton{
+    background-color: burlywood;
+    margin-left: 0px;
+    font-size: 40px;
+      width :60px;
+      height: 100px;
+}
+#header{
+    border: 3px solid black;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: darkgoldenrod;
+}
+
+.elementModal{
+    height: 600px;
+}
+#input{
+    width: 120px;
+}
+
+.modal-header{
+    text-align: center;
+}
+
+.inbox{
+    color :  black;
+    padding-left: 200px;
+}
+
+.boxs{
+   overflow-y: scroll;
+}
+
+.single{
+    padding-left: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    width: 90%;
+    margin-left: 20px;
+    padding-top:10px; 
+}
